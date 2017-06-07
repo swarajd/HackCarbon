@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */; };
+		CE1AA3A5138E1A366729F20E /* libPods-Moolah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C75D6974E39A3121003A19D /* libPods-Moolah.a */; };
 		E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */; };
 		E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE541EE83D6E0017F3D8 /* Main.storyboard */; };
 		E05ABE581EE83D6E0017F3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		3C75D6974E39A3121003A19D /* libPods-Moolah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moolah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF91E3035C03C3798473B7C /* Pods-Moolah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moolah/Pods-Moolah.release.xcconfig"; sourceTree = "<group>"; };
 		E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05ABE551EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		E05ABE6C1EE83D6E0017F3D8 /* MoolahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05ABE701EE83D6E0017F3D8 /* MoolahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolahUITests.swift; sourceTree = "<group>"; };
 		E05ABE721EE83D6E0017F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB86AD5736BC342D6706943 /* Pods-Moolah.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolah.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moolah/Pods-Moolah.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1AA3A5138E1A366729F20E /* libPods-Moolah.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039B46D950235B02FBA68804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C75D6974E39A3121003A19D /* libPods-Moolah.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AE18C961091D5D5711D8B21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB86AD5736BC342D6706943 /* Pods-Moolah.debug.xcconfig */,
+				4AF91E3035C03C3798473B7C /* Pods-Moolah.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E05ABE421EE83D6E0017F3D8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				E05ABE641EE83D6E0017F3D8 /* MoolahTests */,
 				E05ABE6F1EE83D6E0017F3D8 /* MoolahUITests */,
 				E05ABE4C1EE83D6E0017F3D8 /* Products */,
+				6AE18C961091D5D5711D8B21 /* Pods */,
+				039B46D950235B02FBA68804 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E05ABE751EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "Moolah" */;
 			buildPhases = (
+				90D743D8D186C5577C0202C9 /* [CP] Check Pods Manifest.lock */,
 				E05ABE471EE83D6E0017F3D8 /* Sources */,
 				E05ABE481EE83D6E0017F3D8 /* Frameworks */,
 				E05ABE491EE83D6E0017F3D8 /* Resources */,
+				A6091BE2E8E40FE053581F87 /* [CP] Embed Pods Frameworks */,
+				757EFB7DAE943D284412AEBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		757EFB7DAE943D284412AEBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moolah/Pods-Moolah-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D743D8D186C5577C0202C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6091BE2E8E40FE053581F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moolah/Pods-Moolah-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E05ABE471EE83D6E0017F3D8 /* Sources */ = {
@@ -410,6 +485,7 @@
 		};
 		E05ABE761EE83D6E0017F3D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB86AD5736BC342D6706943 /* Pods-Moolah.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moolah/Info.plist;
@@ -423,6 +499,7 @@
 		};
 		E05ABE771EE83D6E0017F3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF91E3035C03C3798473B7C /* Pods-Moolah.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moolah/Info.plist;
