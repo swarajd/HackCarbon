@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */; };
 		E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */; };
 		E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE541EE83D6E0017F3D8 /* Main.storyboard */; };
 		E05ABE581EE83D6E0017F3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05ABE551EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */,
+				30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */,
 				E05ABE541EE83D6E0017F3D8 /* Main.storyboard */,
 				E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */,
 				E05ABE591EE83D6E0017F3D8 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */,
 				E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				E05ABE771EE83D6E0017F3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05ABE781EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				E05ABE7A1EE83D6E0017F3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05ABE7B1EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				E05ABE7D1EE83D6E0017F3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
