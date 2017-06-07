@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */; };
+		E05ABE511EE83D6E0017F3D8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE501EE83D6E0017F3D8 /* FirstViewController.swift */; };
+		E05ABE531EE83D6E0017F3D8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE521EE83D6E0017F3D8 /* SecondViewController.swift */; };
+		E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE541EE83D6E0017F3D8 /* Main.storyboard */; };
+		E05ABE581EE83D6E0017F3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */; };
+		E05ABE5B1EE83D6E0017F3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE591EE83D6E0017F3D8 /* LaunchScreen.storyboard */; };
+		E05ABE661EE83D6E0017F3D8 /* MoolahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE651EE83D6E0017F3D8 /* MoolahTests.swift */; };
+		E05ABE711EE83D6E0017F3D8 /* MoolahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE701EE83D6E0017F3D8 /* MoolahUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E05ABE621EE83D6E0017F3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05ABE431EE83D6E0017F3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05ABE4A1EE83D6E0017F3D8;
+			remoteInfo = Moolah;
+		};
+		E05ABE6D1EE83D6E0017F3D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05ABE431EE83D6E0017F3D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05ABE4A1EE83D6E0017F3D8;
+			remoteInfo = Moolah;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05ABE501EE83D6E0017F3D8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E05ABE521EE83D6E0017F3D8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E05ABE551EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05ABE5A1EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E05ABE5C1EE83D6E0017F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05ABE611EE83D6E0017F3D8 /* MoolahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05ABE651EE83D6E0017F3D8 /* MoolahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolahTests.swift; sourceTree = "<group>"; };
+		E05ABE671EE83D6E0017F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05ABE6C1EE83D6E0017F3D8 /* MoolahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoolahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05ABE701EE83D6E0017F3D8 /* MoolahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolahUITests.swift; sourceTree = "<group>"; };
+		E05ABE721EE83D6E0017F3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05ABE481EE83D6E0017F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE5E1EE83D6E0017F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE691EE83D6E0017F3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05ABE421EE83D6E0017F3D8 = {
+			isa = PBXGroup;
+			children = (
+				E05ABE4D1EE83D6E0017F3D8 /* Moolah */,
+				E05ABE641EE83D6E0017F3D8 /* MoolahTests */,
+				E05ABE6F1EE83D6E0017F3D8 /* MoolahUITests */,
+				E05ABE4C1EE83D6E0017F3D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05ABE4C1EE83D6E0017F3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */,
+				E05ABE611EE83D6E0017F3D8 /* MoolahTests.xctest */,
+				E05ABE6C1EE83D6E0017F3D8 /* MoolahUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05ABE4D1EE83D6E0017F3D8 /* Moolah */ = {
+			isa = PBXGroup;
+			children = (
+				E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */,
+				E05ABE501EE83D6E0017F3D8 /* FirstViewController.swift */,
+				E05ABE521EE83D6E0017F3D8 /* SecondViewController.swift */,
+				E05ABE541EE83D6E0017F3D8 /* Main.storyboard */,
+				E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */,
+				E05ABE591EE83D6E0017F3D8 /* LaunchScreen.storyboard */,
+				E05ABE5C1EE83D6E0017F3D8 /* Info.plist */,
+			);
+			path = Moolah;
+			sourceTree = "<group>";
+		};
+		E05ABE641EE83D6E0017F3D8 /* MoolahTests */ = {
+			isa = PBXGroup;
+			children = (
+				E05ABE651EE83D6E0017F3D8 /* MoolahTests.swift */,
+				E05ABE671EE83D6E0017F3D8 /* Info.plist */,
+			);
+			path = MoolahTests;
+			sourceTree = "<group>";
+		};
+		E05ABE6F1EE83D6E0017F3D8 /* MoolahUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E05ABE701EE83D6E0017F3D8 /* MoolahUITests.swift */,
+				E05ABE721EE83D6E0017F3D8 /* Info.plist */,
+			);
+			path = MoolahUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05ABE4A1EE83D6E0017F3D8 /* Moolah */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05ABE751EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "Moolah" */;
+			buildPhases = (
+				E05ABE471EE83D6E0017F3D8 /* Sources */,
+				E05ABE481EE83D6E0017F3D8 /* Frameworks */,
+				E05ABE491EE83D6E0017F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moolah;
+			productName = Moolah;
+			productReference = E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E05ABE601EE83D6E0017F3D8 /* MoolahTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05ABE781EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahTests" */;
+			buildPhases = (
+				E05ABE5D1EE83D6E0017F3D8 /* Sources */,
+				E05ABE5E1EE83D6E0017F3D8 /* Frameworks */,
+				E05ABE5F1EE83D6E0017F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05ABE631EE83D6E0017F3D8 /* PBXTargetDependency */,
+			);
+			name = MoolahTests;
+			productName = MoolahTests;
+			productReference = E05ABE611EE83D6E0017F3D8 /* MoolahTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E05ABE6B1EE83D6E0017F3D8 /* MoolahUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05ABE7B1EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahUITests" */;
+			buildPhases = (
+				E05ABE681EE83D6E0017F3D8 /* Sources */,
+				E05ABE691EE83D6E0017F3D8 /* Frameworks */,
+				E05ABE6A1EE83D6E0017F3D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E05ABE6E1EE83D6E0017F3D8 /* PBXTargetDependency */,
+			);
+			name = MoolahUITests;
+			productName = MoolahUITests;
+			productReference = E05ABE6C1EE83D6E0017F3D8 /* MoolahUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05ABE431EE83D6E0017F3D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sun, Jessica";
+				TargetAttributes = {
+					E05ABE4A1EE83D6E0017F3D8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E05ABE601EE83D6E0017F3D8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05ABE4A1EE83D6E0017F3D8;
+					};
+					E05ABE6B1EE83D6E0017F3D8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E05ABE4A1EE83D6E0017F3D8;
+					};
+				};
+			};
+			buildConfigurationList = E05ABE461EE83D6E0017F3D8 /* Build configuration list for PBXProject "Moolah" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05ABE421EE83D6E0017F3D8;
+			productRefGroup = E05ABE4C1EE83D6E0017F3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05ABE4A1EE83D6E0017F3D8 /* Moolah */,
+				E05ABE601EE83D6E0017F3D8 /* MoolahTests */,
+				E05ABE6B1EE83D6E0017F3D8 /* MoolahUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05ABE491EE83D6E0017F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ABE5B1EE83D6E0017F3D8 /* LaunchScreen.storyboard in Resources */,
+				E05ABE581EE83D6E0017F3D8 /* Assets.xcassets in Resources */,
+				E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE5F1EE83D6E0017F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE6A1EE83D6E0017F3D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05ABE471EE83D6E0017F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ABE531EE83D6E0017F3D8 /* SecondViewController.swift in Sources */,
+				E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */,
+				E05ABE511EE83D6E0017F3D8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE5D1EE83D6E0017F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ABE661EE83D6E0017F3D8 /* MoolahTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05ABE681EE83D6E0017F3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05ABE711EE83D6E0017F3D8 /* MoolahUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E05ABE631EE83D6E0017F3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05ABE4A1EE83D6E0017F3D8 /* Moolah */;
+			targetProxy = E05ABE621EE83D6E0017F3D8 /* PBXContainerItemProxy */;
+		};
+		E05ABE6E1EE83D6E0017F3D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05ABE4A1EE83D6E0017F3D8 /* Moolah */;
+			targetProxy = E05ABE6D1EE83D6E0017F3D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E05ABE541EE83D6E0017F3D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05ABE551EE83D6E0017F3D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E05ABE591EE83D6E0017F3D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05ABE5A1EE83D6E0017F3D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05ABE731EE83D6E0017F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E05ABE741EE83D6E0017F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05ABE761EE83D6E0017F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moolah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.Moolah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E05ABE771EE83D6E0017F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moolah/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.Moolah;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E05ABE791EE83D6E0017F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoolahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.MoolahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moolah.app/Moolah";
+			};
+			name = Debug;
+		};
+		E05ABE7A1EE83D6E0017F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoolahTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.MoolahTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moolah.app/Moolah";
+			};
+			name = Release;
+		};
+		E05ABE7C1EE83D6E0017F3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoolahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.MoolahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Moolah;
+			};
+			name = Debug;
+		};
+		E05ABE7D1EE83D6E0017F3D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoolahUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carbon.MoolahUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Moolah;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05ABE461EE83D6E0017F3D8 /* Build configuration list for PBXProject "Moolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ABE731EE83D6E0017F3D8 /* Debug */,
+				E05ABE741EE83D6E0017F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05ABE751EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "Moolah" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ABE761EE83D6E0017F3D8 /* Debug */,
+				E05ABE771EE83D6E0017F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E05ABE781EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ABE791EE83D6E0017F3D8 /* Debug */,
+				E05ABE7A1EE83D6E0017F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E05ABE7B1EE83D6E0017F3D8 /* Build configuration list for PBXNativeTarget "MoolahUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05ABE7C1EE83D6E0017F3D8 /* Debug */,
+				E05ABE7D1EE83D6E0017F3D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05ABE431EE83D6E0017F3D8 /* Project object */;
+}
