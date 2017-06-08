@@ -1,5 +1,5 @@
 //
-//  EntertainmentTableViewController.swift
+//  ShopClothingTableViewController.swift
 //  Moolah
 //
 //  Created by Varun Pitta on 6/8/17.
@@ -9,9 +9,8 @@
 import UIKit
 import GooglePlaces
 
-class EntertainmentTableViewController: UITableViewController {
+class ShopClothingTableViewController: UITableViewController {
 
-   
     var placesClient: GMSPlacesClient!
     var lat = 0.0
     var long = 0.0
@@ -55,7 +54,7 @@ class EntertainmentTableViewController: UITableViewController {
     
     func search()
     {
-        let todoEndpoint: String = "https://hackcarbonserver.herokuapp.com/get_deals?lat=\(lat)&long=\(long)&category=entertainment"
+        let todoEndpoint: String = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=\(lat),\(long)&radius=500&&&type=clothing_store&maxprice=2&key=AIzaSyD4cb_s4PA8VThsRwH6jhT-rPPZCs-Pssc"
         guard let url = URL(string: todoEndpoint) else {
             print("THIS IS AN ERROR")
             return
@@ -68,33 +67,31 @@ class EntertainmentTableViewController: UITableViewController {
                 guard let jsonResponse = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else {
                     return
                 }
-                //print("data \(jsonResponse)")
-                guard let todo = jsonResponse["deals"] as? [[String: Any]] else {
-                    print("todo err")
+                print("data \(jsonResponse)")
+                guard let addr = jsonResponse["formatted_address"] as? Int else {
+                    print("addr err")
                     return
                 }
-                for obj in todo {
-                    if let title = obj["announcementTitle"] as? String {
-                        print(title)
-                    }
-                    if let disc = obj["discountAmt"] as? String {
-                        print(disc)
-                    }
-                    if let disp = obj["discountPercent"] as? String {
-                        print(disp)
-                    }
-                    if let expA = obj["expiresAt"] as? String {
-                        print(expA)
-                    }
-                    
-                    
-                    
+                
+                guard let phn = jsonResponse["formatted_phone_number"] as? Int else {
+                    print("phn err")
+                    return
                 }
                 
+                guard let name = jsonResponse["name"] as? Int else {
+                    print("name err")
+                    return
+                }
                 
+                guard let rating = jsonResponse["rating"] as? Int else {
+                    print("rating err")
+                    return
+                }
                 
-                //print(thingstodo)
-                
+                guard let website = jsonResponse["website"] as? Int else {
+                    print("website err")
+                    return
+                }
                 
             } catch {
                 return
@@ -103,7 +100,11 @@ class EntertainmentTableViewController: UITableViewController {
         task.resume()
     }
 
-    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {

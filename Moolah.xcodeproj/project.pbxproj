@@ -25,6 +25,10 @@
 		989107D11EE984A700C8701F /* GiftsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107D01EE984A700C8701F /* GiftsTableViewController.swift */; };
 		989107D31EE984B700C8701F /* GroceriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107D21EE984B700C8701F /* GroceriesTableViewController.swift */; };
 		989107D51EE984C800C8701F /* HealthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107D41EE984C800C8701F /* HealthTableViewController.swift */; };
+		989107D71EE99A4C00C8701F /* ShopClothingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107D61EE99A4C00C8701F /* ShopClothingTableViewController.swift */; };
+		989107D91EE99A5F00C8701F /* ShopEntertainmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107D81EE99A5F00C8701F /* ShopEntertainmentTableViewController.swift */; };
+		989107DB1EE99A6F00C8701F /* ShopNighLifeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107DA1EE99A6F00C8701F /* ShopNighLifeTableViewController.swift */; };
+		989107DD1EE99A8000C8701F /* ShopGroceriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107DC1EE99A8000C8701F /* ShopGroceriesTableViewController.swift */; };
 		CE1AA3A5138E1A366729F20E /* libPods-Moolah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C75D6974E39A3121003A19D /* libPods-Moolah.a */; };
 		E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */; };
 		E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE541EE83D6E0017F3D8 /* Main.storyboard */; };
@@ -72,6 +76,10 @@
 		989107D01EE984A700C8701F /* GiftsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiftsTableViewController.swift; sourceTree = "<group>"; };
 		989107D21EE984B700C8701F /* GroceriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceriesTableViewController.swift; sourceTree = "<group>"; };
 		989107D41EE984C800C8701F /* HealthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewController.swift; sourceTree = "<group>"; };
+		989107D61EE99A4C00C8701F /* ShopClothingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopClothingTableViewController.swift; sourceTree = "<group>"; };
+		989107D81EE99A5F00C8701F /* ShopEntertainmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopEntertainmentTableViewController.swift; sourceTree = "<group>"; };
+		989107DA1EE99A6F00C8701F /* ShopNighLifeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopNighLifeTableViewController.swift; sourceTree = "<group>"; };
+		989107DC1EE99A8000C8701F /* ShopGroceriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopGroceriesTableViewController.swift; sourceTree = "<group>"; };
 		E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05ABE551EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -178,6 +186,10 @@
 				989107D01EE984A700C8701F /* GiftsTableViewController.swift */,
 				989107D21EE984B700C8701F /* GroceriesTableViewController.swift */,
 				989107D41EE984C800C8701F /* HealthTableViewController.swift */,
+				989107D61EE99A4C00C8701F /* ShopClothingTableViewController.swift */,
+				989107D81EE99A5F00C8701F /* ShopEntertainmentTableViewController.swift */,
+				989107DA1EE99A6F00C8701F /* ShopNighLifeTableViewController.swift */,
+				989107DC1EE99A8000C8701F /* ShopGroceriesTableViewController.swift */,
 			);
 			path = Moolah;
 			sourceTree = "<group>";
@@ -386,8 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				989107C41EE8E99900C8701F /* SummaryTableViewController.swift in Sources */,
+				989107DB1EE99A6F00C8701F /* ShopNighLifeTableViewController.swift in Sources */,
 				30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */,
 				989107BB1EE8D6A900C8701F /* GroceriesViewController.swift in Sources */,
+				989107D91EE99A5F00C8701F /* ShopEntertainmentTableViewController.swift in Sources */,
 				989107C81EE8E99900C8701F /* EnvelopeTableViewCell.swift in Sources */,
 				E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */,
 				989107B51EE8CEE500C8701F /* EntertainmentViewController.swift in Sources */,
@@ -402,6 +416,8 @@
 				989107C51EE8E99900C8701F /* AddTransactionViewController.swift in Sources */,
 				989107B11EE87E5100C8701F /* ShopViewController.swift in Sources */,
 				989107C91EE8E99900C8701F /* AddEnvelopeViewController.swift in Sources */,
+				989107D71EE99A4C00C8701F /* ShopClothingTableViewController.swift in Sources */,
+				989107DD1EE99A8000C8701F /* ShopGroceriesTableViewController.swift in Sources */,
 				989107CB1EE9826B00C8701F /* CouponViewController.swift in Sources */,
 				989107B91EE8D54A00C8701F /* NightlifeViewController.swift in Sources */,
 			);

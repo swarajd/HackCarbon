@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kbp-A2-OyM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -475,6 +475,34 @@
             </objects>
             <point key="canvasLocation" x="338" y="-1127"/>
         </scene>
+        <!--Clothing-->
+        <scene sceneID="dL1-bg-dnn">
+            <objects>
+                <tableViewController title="Clothing" id="yNC-fg-xK7" customClass="ShopClothingTableViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XRy-3H-g0c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5Zd-Eu-SjO">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Zd-Eu-SjO" id="QpU-ht-Zey">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yNC-fg-xK7" id="xhg-tG-PHK"/>
+                            <outlet property="delegate" destination="yNC-fg-xK7" id="YHL-Pd-beL"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POl-9S-I70" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1268" y="-943"/>
+        </scene>
         <!--Tips-->
         <scene sceneID="tCQ-vC-9zF">
             <objects>
@@ -608,23 +636,61 @@
             </objects>
             <point key="canvasLocation" x="300" y="800"/>
         </scene>
-        <!--Nightlife-->
-        <scene sceneID="veg-cV-eCS">
+        <!--NightLife-->
+        <scene sceneID="NKP-Fi-Sni">
             <objects>
-                <viewController title="Nightlife" id="shA-NP-fj6" customClass="NightlifeViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7wo-uw-wEm"/>
-                        <viewControllerLayoutGuide type="bottom" id="oim-h5-Udr"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="jHs-qJ-OIV">
+                <tableViewController title="NightLife" id="JNY-kq-qNk" customClass="ShopNighLifeTableViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hjm-cA-eTB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QwO-iQ-yig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="tOB-kM-Cq4">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tOB-kM-Cq4" id="qPB-A6-5oJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="JNY-kq-qNk" id="1ro-Gq-RST"/>
+                            <outlet property="delegate" destination="JNY-kq-qNk" id="Ymy-k8-guo"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="itM-tb-5O4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1194" y="794"/>
+            <point key="canvasLocation" x="1337" y="405"/>
+        </scene>
+        <!--Groceries-->
+        <scene sceneID="uMz-Yp-tBS">
+            <objects>
+                <tableViewController title="Groceries" id="uRp-qr-oRe" customClass="ShopGroceriesTableViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="SDB-X5-AJj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xAL-GD-A5r">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xAL-GD-A5r" id="zsB-m4-lWj">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uRp-qr-oRe" id="QSA-Kk-wJe"/>
+                            <outlet property="delegate" destination="uRp-qr-oRe" id="aFL-60-tM6"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8q-PQ-dSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2024" y="931"/>
         </scene>
         <!--Reports-->
         <scene sceneID="oPV-o7-hEs">
@@ -802,7 +868,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Clothing"/>
                                 <connections>
-                                    <segue destination="hCI-kM-ilG" kind="show" id="HBt-4f-cRj"/>
+                                    <segue destination="yNC-fg-xK7" kind="show" id="f8E-MK-8wK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egU-qP-wpT">
@@ -810,7 +876,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Groceries"/>
                                 <connections>
-                                    <segue destination="2Sv-sT-OPA" kind="show" id="SI7-oi-Ai7"/>
+                                    <segue destination="uRp-qr-oRe" kind="show" id="Z55-Xr-FN9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4MT-GF-cs1">
@@ -818,7 +884,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Nightlife"/>
                                 <connections>
-                                    <segue destination="shA-NP-fj6" kind="show" id="fuC-Vr-BKz"/>
+                                    <segue destination="JNY-kq-qNk" kind="show" id="WvF-IZ-8T5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyR-T2-OBd">
@@ -826,7 +892,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Entertainment"/>
                                 <connections>
-                                    <segue destination="UZv-Ub-OKX" kind="show" id="y0M-hI-etM"/>
+                                    <segue destination="Spt-3H-HQn" kind="show" id="wzg-Go-Bf1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -838,58 +904,32 @@
             <point key="canvasLocation" x="189.59999999999999" y="38.23088455772114"/>
         </scene>
         <!--Entertainment-->
-        <scene sceneID="FCL-Zy-ZuH">
+        <scene sceneID="flu-hZ-gjE">
             <objects>
-                <viewController title="Entertainment" id="UZv-Ub-OKX" customClass="EntertainmentViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mXc-G7-fCU"/>
-                        <viewControllerLayoutGuide type="bottom" id="IGv-Oa-GqK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="In6-A4-Pvu">
+                <tableViewController title="Entertainment" id="Spt-3H-HQn" customClass="ShopEntertainmentTableViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vik-42-gDp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zrp-xK-fwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2fK-Zm-yAE">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2fK-Zm-yAE" id="esH-rb-3zg">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Spt-3H-HQn" id="5hg-4x-hhZ"/>
+                            <outlet property="delegate" destination="Spt-3H-HQn" id="iv5-cf-MZS"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fdZ-qZ-vgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1157" y="84"/>
-        </scene>
-        <!--Groceries-->
-        <scene sceneID="wGK-lQ-zuP">
-            <objects>
-                <viewController title="Groceries" id="2Sv-sT-OPA" customClass="GroceriesViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1N3-nY-B7y"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZCQ-N2-5NB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xfq-JJ-Y0g">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lUm-hx-pFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1099" y="-1334"/>
-        </scene>
-        <!--Clothing-->
-        <scene sceneID="ZQ1-1A-bMA">
-            <objects>
-                <viewController title="Clothing" id="hCI-kM-ilG" customClass="ClothingViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xb5-Gu-tEb"/>
-                        <viewControllerLayoutGuide type="bottom" id="Yl8-Eh-neD"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="aBL-4U-0W8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KFI-Q2-qKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1112.8" y="-640.02998500749629"/>
+            <point key="canvasLocation" x="1304" y="-250"/>
         </scene>
     </scenes>
     <resources>

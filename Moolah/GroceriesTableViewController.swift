@@ -7,17 +7,101 @@
 //
 
 import UIKit
+import GooglePlaces
 
 class GroceriesTableViewController: UITableViewController {
 
+    var placesClient: GMSPlacesClient!
+    var lat = 0.0
+    var long = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let locationManager = CLLocationManager()
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.requestAlwaysAuthorization()
+        locationManager.startUpdatingLocation()
+        placesClient = GMSPlacesClient.shared()
+        currentPlace()
+        // Do any additional setup after loading the view.
+    }
+    
+    func currentPlace()
+    {
+        placesClient.currentPlace(callback: { (placeLikelihoodList, error) -> Void in
+            if let error = error {
+                print("Pick Place error: \(error.localizedDescription)")
+                return
+            }
+            
+            if let placeLikelihoodList = placeLikelihoodList {
+                let place = placeLikelihoodList.likelihoods.first?.place
+                if let place = place {
+                    //                    self.nameLabel.text = place.name
+                    //                    self.addressLabel.text = place.formattedAddress?.components(separatedBy: ", ")
+                    //                        .joined(separator: "\n")
+                    //print(place.coordinate)
+                    self.lat = place.coordinate.latitude
+                    self.long = place.coordinate.longitude
+                    print("Latitude: \(self.lat)")
+                    print("Longitude: \(self.long)")
+                    //self.semaphore.signal()
+                    self.search()
+                }
+            }
+        })
+    }
+    
+    func search()
+    {
+        let todoEndpoint: String = "https://hackcarbonserver.herokuapp.com/get_deals?lat=\(lat)&long=\(long)&category=groceries"
+        guard let url = URL(string: todoEndpoint) else {
+            print("THIS IS AN ERROR")
+            return
+        }
+        let urlRequest = URLRequest(url: url)
+        let session = URLSession.shared
+        let task = session.dataTask(with: urlRequest) { data, response, error in
+            guard let data = data else { return }
+            do {
+                guard let jsonResponse = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] else {
+                    return
+                }
+                //print("data \(jsonResponse)")
+                guard let food = jsonResponse["deals"] as? [[String: Any]] else {
+                    print("groceries err")
+                    return
+                }
+                for obj in food {
+                    if let title = obj["announcementTitle"] as? String {
+                        print(title)
+                    }
+                    if let disc = obj["discountAmt"] as? String {
+                        print(disc)
+                    }
+                    if let disp = obj["discountPercent"] as? String {
+                        print(disp)
+                    }
+                    if let expA = obj["expiresAt"] as? String {
+                        print(expA)
+                    }
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+                    
+                    
+                }
+                //if let title = food["announcementTitle"] as? String {
+                //    print(title)
+               // }
+            
+                
+                //print(food)
+                
+                
+            } catch {
+                return
+            }
+        }
+        task.resume()
     }
 
     override func didReceiveMemoryWarning() {
