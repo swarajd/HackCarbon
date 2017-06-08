@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kbp-A2-OyM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="kbp-A2-OyM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -62,7 +62,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NeI-VI-ble" id="OkC-fJ-wSb">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -93,21 +93,21 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pue-58-8wq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYx-nj-ZgG">
-                                        <rect key="frame" x="152" y="250" width="94" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Coupons"/>
-                                        <connections>
-                                            <segue destination="ohu-5X-28m" kind="show" id="3Fw-TL-tb2"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYc-4x-aVu">
                                         <rect key="frame" x="164" y="175" width="46" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Shop"/>
                                         <connections>
                                             <action selector="clickedShopButton:" destination="BiL-EE-wf6" eventType="touchUpInside" id="z3k-K4-nN6"/>
-                                            <segue destination="dIp-v9-1i0" kind="show" id="teQ-i8-Gbm"/>
+                                            <segue destination="jh8-Dp-tLy" kind="show" id="b1d-Wu-uJn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYx-nj-ZgG">
+                                        <rect key="frame" x="140" y="413" width="94" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Coupons"/>
+                                        <connections>
+                                            <segue destination="ohu-5X-28m" kind="show" id="3Fw-TL-tb2"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -131,34 +131,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="68C-UY-SAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-482.39999999999998" y="330.58470764617692"/>
-        </scene>
-        <!--Shop-->
-        <scene sceneID="wOh-43-EaI">
-            <objects>
-                <tableViewController title="Shop" id="dIp-v9-1i0" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="7AE-0g-cxd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="loW-Xl-2Tb">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="loW-Xl-2Tb" id="aL9-xt-Qmp">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="dIp-v9-1i0" id="ZpN-gu-sCJ"/>
-                            <outlet property="delegate" destination="dIp-v9-1i0" id="p6k-Ah-KXZ"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ex0-SS-eIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="345" y="33"/>
         </scene>
         <!--Benefits-->
         <scene sceneID="CmK-kf-UaW">
@@ -192,7 +164,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Nk-Su-BgH" id="y2J-lC-T3w">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -206,6 +178,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rMi-t9-hNe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="341" y="702"/>
+        </scene>
+        <!--Nightlife-->
+        <scene sceneID="veg-cV-eCS">
+            <objects>
+                <viewController title="Nightlife" id="shA-NP-fj6" customClass="NightlifeViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7wo-uw-wEm"/>
+                        <viewControllerLayoutGuide type="bottom" id="oim-h5-Udr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jHs-qJ-OIV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QwO-iQ-yig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="794"/>
         </scene>
         <!--Reports-->
         <scene sceneID="oPV-o7-hEs">
@@ -225,6 +215,112 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ett-DL-lce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-391" y="1906"/>
+        </scene>
+        <!--Shop-->
+        <scene sceneID="fWQ-Yy-5JE">
+            <objects>
+                <viewController title="Shop" id="jh8-Dp-tLy" customClass="ShopViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q4G-fE-ZPB"/>
+                        <viewControllerLayoutGuide type="bottom" id="zL1-e2-cjY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="igR-1P-hrW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GC2-7r-dEu">
+                                <rect key="frame" x="158" y="67" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clothing"/>
+                                <connections>
+                                    <segue destination="hCI-kM-ilG" kind="show" id="HBt-4f-cRj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egU-qP-wpT">
+                                <rect key="frame" x="154" y="354" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Groceries"/>
+                                <connections>
+                                    <segue destination="2Sv-sT-OPA" kind="show" id="SI7-oi-Ai7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4MT-GF-cs1">
+                                <rect key="frame" x="159" y="257" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Nightlife"/>
+                                <connections>
+                                    <segue destination="shA-NP-fj6" kind="show" id="fuC-Vr-BKz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyR-T2-OBd">
+                                <rect key="frame" x="139" y="151" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Entertainment"/>
+                                <connections>
+                                    <segue destination="UZv-Ub-OKX" kind="show" id="y0M-hI-etM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mff-6Q-U1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="38.23088455772114"/>
+        </scene>
+        <!--Entertainment-->
+        <scene sceneID="FCL-Zy-ZuH">
+            <objects>
+                <viewController title="Entertainment" id="UZv-Ub-OKX" customClass="EntertainmentViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mXc-G7-fCU"/>
+                        <viewControllerLayoutGuide type="bottom" id="IGv-Oa-GqK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="In6-A4-Pvu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zrp-xK-fwW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1157" y="84"/>
+        </scene>
+        <!--Groceries-->
+        <scene sceneID="wGK-lQ-zuP">
+            <objects>
+                <viewController title="Groceries" id="2Sv-sT-OPA" customClass="GroceriesViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1N3-nY-B7y"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZCQ-N2-5NB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xfq-JJ-Y0g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lUm-hx-pFc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1099" y="-1334"/>
+        </scene>
+        <!--Clothing-->
+        <scene sceneID="ZQ1-1A-bMA">
+            <objects>
+                <viewController title="Clothing" id="hCI-kM-ilG" customClass="ClothingViewController" customModule="Moolah" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xb5-Gu-tEb"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yl8-Eh-neD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aBL-4U-0W8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFI-Q2-qKc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1112.8" y="-640.02998500749629"/>
         </scene>
     </scenes>
 </document>
