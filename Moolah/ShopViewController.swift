@@ -1,14 +1,14 @@
 //
-//  AddTransactionViewController.swift
+//  ShopViewController.swift
 //  Moolah
 //
-//  Created by Sun, Jessica on 6/7/17.
+//  Created by Varun Pitta on 6/7/17.
 //  Copyright © 2017 Sun, Jessica. All rights reserved.
 //
 
 import UIKit
 
-class AddTransactionViewController: UIViewController {
+class ShopViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

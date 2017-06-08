@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */; };
+		989107B11EE87E5100C8701F /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107B01EE87E5100C8701F /* ShopViewController.swift */; };
+		989107B31EE87F3800C8701F /* ClothingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107B21EE87F3800C8701F /* ClothingViewController.swift */; };
+		989107B51EE8CEE500C8701F /* EntertainmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107B41EE8CEE500C8701F /* EntertainmentViewController.swift */; };
+		989107B91EE8D54A00C8701F /* NightlifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107B81EE8D54A00C8701F /* NightlifeViewController.swift */; };
+		989107BB1EE8D6A900C8701F /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107BA1EE8D6A900C8701F /* GroceriesViewController.swift */; };
+		989107C41EE8E99900C8701F /* SummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107BE1EE8E99900C8701F /* SummaryTableViewController.swift */; };
+		989107C51EE8E99900C8701F /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107BF1EE8E99900C8701F /* AddTransactionViewController.swift */; };
+		989107C61EE8E99900C8701F /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107C01EE8E99900C8701F /* TransactionTableViewCell.swift */; };
+		989107C71EE8E99900C8701F /* TransactionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107C11EE8E99900C8701F /* TransactionsTableViewController.swift */; };
+		989107C81EE8E99900C8701F /* EnvelopeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107C21EE8E99900C8701F /* EnvelopeTableViewCell.swift */; };
+		989107C91EE8E99900C8701F /* AddEnvelopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989107C31EE8E99900C8701F /* AddEnvelopeViewController.swift */; };
 		CE1AA3A5138E1A366729F20E /* libPods-Moolah.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C75D6974E39A3121003A19D /* libPods-Moolah.a */; };
 		E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */; };
 		E05ABE561EE83D6E0017F3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05ABE541EE83D6E0017F3D8 /* Main.storyboard */; };
@@ -38,6 +49,17 @@
 		30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		3C75D6974E39A3121003A19D /* libPods-Moolah.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Moolah.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF91E3035C03C3798473B7C /* Pods-Moolah.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moolah.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moolah/Pods-Moolah.release.xcconfig"; sourceTree = "<group>"; };
+		989107B01EE87E5100C8701F /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		989107B21EE87F3800C8701F /* ClothingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingViewController.swift; sourceTree = "<group>"; };
+		989107B41EE8CEE500C8701F /* EntertainmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntertainmentViewController.swift; sourceTree = "<group>"; };
+		989107B81EE8D54A00C8701F /* NightlifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightlifeViewController.swift; sourceTree = "<group>"; };
+		989107BA1EE8D6A900C8701F /* GroceriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
+		989107BE1EE8E99900C8701F /* SummaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SummaryTableViewController.swift; path = ../../Downloads/SummaryTableViewController.swift; sourceTree = "<group>"; };
+		989107BF1EE8E99900C8701F /* AddTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTransactionViewController.swift; path = ../../Downloads/AddTransactionViewController.swift; sourceTree = "<group>"; };
+		989107C01EE8E99900C8701F /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionTableViewCell.swift; path = ../../Downloads/TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		989107C11EE8E99900C8701F /* TransactionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionsTableViewController.swift; path = ../../Downloads/TransactionsTableViewController.swift; sourceTree = "<group>"; };
+		989107C21EE8E99900C8701F /* EnvelopeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnvelopeTableViewCell.swift; path = ../../Downloads/EnvelopeTableViewCell.swift; sourceTree = "<group>"; };
+		989107C31EE8E99900C8701F /* AddEnvelopeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddEnvelopeViewController.swift; path = ../../Downloads/AddEnvelopeViewController.swift; sourceTree = "<group>"; };
 		E05ABE4B1EE83D6E0017F3D8 /* Moolah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moolah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05ABE551EE83D6E0017F3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,9 +146,20 @@
 				E05ABE4E1EE83D6E0017F3D8 /* AppDelegate.swift */,
 				30ADF4841EE8699B0085F2F9 /* TipsViewController.swift */,
 				E05ABE541EE83D6E0017F3D8 /* Main.storyboard */,
+				989107B41EE8CEE500C8701F /* EntertainmentViewController.swift */,
+				989107B21EE87F3800C8701F /* ClothingViewController.swift */,
+				989107B01EE87E5100C8701F /* ShopViewController.swift */,
 				E05ABE571EE83D6E0017F3D8 /* Assets.xcassets */,
 				E05ABE591EE83D6E0017F3D8 /* LaunchScreen.storyboard */,
 				E05ABE5C1EE83D6E0017F3D8 /* Info.plist */,
+				989107B81EE8D54A00C8701F /* NightlifeViewController.swift */,
+				989107BA1EE8D6A900C8701F /* GroceriesViewController.swift */,
+				989107BE1EE8E99900C8701F /* SummaryTableViewController.swift */,
+				989107BF1EE8E99900C8701F /* AddTransactionViewController.swift */,
+				989107C01EE8E99900C8701F /* TransactionTableViewCell.swift */,
+				989107C11EE8E99900C8701F /* TransactionsTableViewController.swift */,
+				989107C21EE8E99900C8701F /* EnvelopeTableViewCell.swift */,
+				989107C31EE8E99900C8701F /* AddEnvelopeViewController.swift */,
 			);
 			path = Moolah;
 			sourceTree = "<group>";
@@ -334,8 +367,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989107C41EE8E99900C8701F /* SummaryTableViewController.swift in Sources */,
 				30ADF4851EE8699B0085F2F9 /* TipsViewController.swift in Sources */,
+				989107BB1EE8D6A900C8701F /* GroceriesViewController.swift in Sources */,
+				989107C81EE8E99900C8701F /* EnvelopeTableViewCell.swift in Sources */,
 				E05ABE4F1EE83D6E0017F3D8 /* AppDelegate.swift in Sources */,
+				989107B51EE8CEE500C8701F /* EntertainmentViewController.swift in Sources */,
+				989107B31EE87F3800C8701F /* ClothingViewController.swift in Sources */,
+				989107C71EE8E99900C8701F /* TransactionsTableViewController.swift in Sources */,
+				989107C61EE8E99900C8701F /* TransactionTableViewCell.swift in Sources */,
+				989107C51EE8E99900C8701F /* AddTransactionViewController.swift in Sources */,
+				989107B11EE87E5100C8701F /* ShopViewController.swift in Sources */,
+				989107C91EE8E99900C8701F /* AddEnvelopeViewController.swift in Sources */,
+				989107B91EE8D54A00C8701F /* NightlifeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,10 +7,12 @@
     },
     {
       "idiom" : "iphone",
+      "filename" : "light_brown-1.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "iphone",
+      "filename" : "light_brown-2.jpg",
       "scale" : "3x"
     }
   ],
